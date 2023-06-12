@@ -1,6 +1,10 @@
 <div fxLayoutAlign="center center" fxFlexFill class="main-div">
     <mat-card fxFlex="25">
-        <mat-toolbar color= ""></mat-toolbar>
+        <mat-toolbar color= "">
+          <div class="logo py-4">
+            <img src="./assets/image1.jpg" alt="Company Logo" />
+          </div>
+        </mat-toolbar>
         <form fxLayoutAlign="stretch" fxLayout="column" class="login-form">
             <mat-form-field>
               <input matInput placeholder="Username">
@@ -10,6 +14,8 @@
                 <input matInput type="password" placeholder="Password">
             </mat-form-field>
             <button mat-raised-button type="submit">Login</button>
+            <br>
+            <button mat-raised-button type="submit">Single Sign On</button>
           </form>
           
     </mat-card>
